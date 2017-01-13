@@ -2,8 +2,8 @@
     "name": "divineomega/dotenv-loader",
     "type": "library",
     "description": "Dotenv loader is a simple PHP library that will automatically load in a `.env` file from the root of your project into environment variables.",
-    "keywords": ["dotenv", ".env", "environment", "SOAP web service library", "library", "PHP", "PHP library", "SOAP PHP library"],
-    "homepage": "https://github.com/DivineOmega/php-summary",
+    "keywords": ["dotenv", ".env", "environment", "library", "PHP", "PHP library", ".env PHP library"],
+    "homepage": "https://github.com/DivineOmega/dotenv-loader",
     "license": "LGPL3",
     "require": {
         "php": ">=5.5.9",
