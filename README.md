@@ -1,7 +1,8 @@
 # dotenv-loader
 
-The dotenv-loader is a simple PHP helper that automatically load in a `.env` file 
-from the root of your project into environment variables.
+The dotenv-loader is a simple PHP helper that automatically loads in a `.env` file 
+from the root of your project into environment variables. It is designed for use in
+projects that do not already make use of a `.env` file.
 
 ## Quick Start
 
