@@ -1,6 +1,6 @@
 {
 
     "require": {
-        "DivineOmega/dotenv-loader": "dev-master"
+        "DivineOmega/dotenv-loader": "1.*"
     }
 }
