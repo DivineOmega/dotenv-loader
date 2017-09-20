@@ -7,12 +7,13 @@ if (function_exists('dotEnvLoader')) {
 } else {
 
     function dotEnvLoader() {
-
+        
         $path = realpath(__DIR__.'/../../../../');
 
-        $dotEnv = new Dotenv\Dotenv($path);
-
-        $dotEnv->load();
+        if (file_exists($path.'.env')) {
+            $dotEnv = new Dotenv\Dotenv($path);
+            $dotEnv->load();
+        }
     }
 
     dotEnvLoader();
