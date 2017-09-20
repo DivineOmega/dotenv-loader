@@ -10,7 +10,7 @@ if (function_exists('dotEnvLoader')) {
         
         $path = realpath(__DIR__.'/../../../../');
 
-        if (file_exists($path.'.env')) {
+        if (file_exists($path.'/.env')) {
             $dotEnv = new Dotenv\Dotenv($path);
             $dotEnv->load();
         }
