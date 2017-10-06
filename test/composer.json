@@ -1,6 +1,6 @@
 {
 
     "require": {
-        "DivineOmega/dotenv-loader": "1.*"
+        "DivineOmega/dotenv-loader": "2.*"
     }
 }
