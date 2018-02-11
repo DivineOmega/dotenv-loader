@@ -4,7 +4,7 @@
     "description": "Dotenv loader is a simple PHP library that will automatically load in a `.env` file from the root of your project into environment variables.",
     "keywords": ["dotenv", ".env", "environment", "library", "PHP", "PHP library", ".env PHP library"],
     "homepage": "https://github.com/DivineOmega/dotenv-loader",
-    "license": "LGPL3",
+    "license": "LGPL-3.0-only",
     "require": {
         "php": ">=5.5.9",
         "vlucas/phpdotenv": "2.*"
